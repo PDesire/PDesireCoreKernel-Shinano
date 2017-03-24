@@ -1,0 +1,11 @@
+  HOSTCC  scripts/basic/fixdep
+  SHIPPED scripts/kconfig/zconf.tab.c
+  HOSTCC  scripts/kconfig/conf.o
+  SHIPPED scripts/kconfig/zconf.lex.c
+  SHIPPED scripts/kconfig/zconf.hash.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+arch/arm/configs/shinano_leo_defconfig:532:warning: override: reassigning to symbol CRYPTO_AES_ARM
+#
+# configuration written to .config
+#
